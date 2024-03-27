@@ -1,0 +1,47 @@
+from turtle import*
+
+def poligono(lado, n):
+    for i in range(n):
+        forward(lado)
+        right(360 / n)
+
+poligono(100, 5)
+poligono(100, 4)
+poligono(100, 3)
+
+def poligonos():
+    for i in range(3, 11):
+        poligono(100, i)
+
+poligonos()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+screen = Screen()
+screen.exitonclick()
